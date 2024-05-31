@@ -7,7 +7,7 @@ const SwitchTheme = () => {
   const { setTheme, theme } = useTheme();
 
   return (
-    <div className="absolute bottom-4 right-12 rounded space-x-1 border bg-background">
+    <div className="fixed bottom-4 right-12 rounded space-x-1 border bg-background">
       <Button
         onClick={() => setTheme("light")}
         variant={theme === "light" ? "secondary" : "ghost"}

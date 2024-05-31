@@ -67,7 +67,7 @@ export const SocialCard = () => {
         </Button>
         <Button variant={"outline"} size={"icon"} className="w-8 h-8">
           <a
-            href="https://www.linkedin.com/in/aditya1203"
+            href="https://twitter.com/adiidev12"
             target="_blank"
             rel="noopener noreferrer">
             <svg

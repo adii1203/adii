@@ -6,6 +6,7 @@ import { Space_Grotesk } from "next/font/google";
 import SectionHead from "@/components/section-head";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import TechStack from "@/components/tech-stact";
 
 const SpaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -28,7 +29,6 @@ export default function Home() {
         </div>
         <SocialCard />
       </section>
-
       <section>
         <SectionHead
           title="About"
@@ -109,6 +109,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <TechStack />
     </main>
   );
 }

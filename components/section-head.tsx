@@ -8,7 +8,7 @@ const SectionHead = ({
   subTitle: string;
 }) => {
   return (
-    <div className="py-8 space-y-4">
+    <div className="py-4 space-y-4">
       <h2 className="text-2xl font-bold font-space border-border border-b-2 w-fit">
         {title}
       </h2>

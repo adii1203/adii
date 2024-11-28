@@ -1,5 +1,35 @@
 export const projectData = [
   {
+    title: "gitgrapg",
+    description: "A tool to visualize your GitHub star graph.",
+    techStack: [
+      {
+        text: "golang",
+        varient: "custom_blue",
+      },
+      {
+        text: "#NextJs",
+        varient: "custom_yellow",
+      },
+      {
+        text: "#Typescript",
+        varient: "custom_green",
+      },
+      {
+        text: "#Tailwindcss",
+        varient: "custom_blue",
+      },
+      {
+        text: "#Reactjs",
+        varient: "custom_gray",
+      },
+    ],
+    github: "https://github.com/adii1203/githistory",
+    live: "https://gitgraph.fun",
+    imageUrl:
+      "https://res.cloudinary.com/dlyewgpru/image/upload/f_auto,q_auto/yk9oq6131mb75cihqclo",
+  },
+  {
     title: "apipro",
     description:
       "apipro provides a suite of easy-to-use, free online tools to convert data between different formats.",
